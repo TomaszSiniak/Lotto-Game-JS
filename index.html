@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lotto Game - Js training</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">Lotto game</header>
+        <main class="content">
+            <div class="title">Choose 6 numbers and draw</div>
+            <div class="balls-container">
+                <div class="balls"></div>
+                <div class="btn-group">
+                    <button class="btn btn-draw">Draw number</button>
+                    <button id="btn-check" class="btn btn-check" disabled>Check</button>
+                </div>
+            </div>  
+            <div class="result-container"> 
+                <div class="title">Chosen Numbers</div>
+                <div class="my-numbers"></div>
+                <div class="title">Draw Result</div>
+                <div class="draw-numbers"></div>
+            </div>
+            <div class="overlay">
+                
+                <div class="winner-box">
+                    <div class="title">Result</div>
+                    <div class="info">here is info</div>
+                    <div class="matched-numbers"></div>
+                    <button class=" btn restart-btn">Try Again</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>

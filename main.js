@@ -54,25 +54,25 @@ document.addEventListener('DOMContentLoaded', () => {
         // check array length and add proper infromation to user how many numbers he hit
         switch(winnerNumbers.length){
             case 0:
-                return info.textContent = "Ivoncia nic nie trafiłaś, weż idź zrób obiad małpo :)";
+                return info.textContent = "Sorry, 0 numbers hitted";
                 break;
             case 1:
-                return info.textContent = "Ivoncia ja Cię Bitte, tylko jedna liczba... jestem głodny, zrób obiad świnko :)";
+                return info.textContent = "Congratulations! You hit 1 number!";
                 break;
             case 2:
-                return info.textContent = "uuuuuuu są już 2 trafione, kwi kwi kwi";
+                return info.textContent = "Congratulations! You hit 2 numbers!"
                 break;
             case 3:
-                return info.textContent = "Trzy trafine liczby!!! Gratulacje";
+                return info.textContent = "Congratulations! You hit 3 numbers!"
                 break;
             case 4:
-                return info.textContent = "Cztery trafine liczby!!! Gratulacje";
+                return info.textContent = "Congratulations! You hit 4 numbers!"
                 break;
             case 5:
-                return info.textContent = "Pięć trafionych liczb!!! Gratulacje";
+                return info.textContent = "Congratulations! You hit 5 numbers!"
                 break;
             case 6:
-                return info.textContent = "Sześć trafionych liczb!!! Gratulacje";
+                return info.textContent = "Congratulations! You hit 6 numbers!"
                 break;
         }       
     }
